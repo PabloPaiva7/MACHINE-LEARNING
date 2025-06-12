@@ -77,14 +77,4 @@ Consultores podem focar em contratos mais promissores.
 
 Análise de Performance: Compreensão do desempenho por banco, consultor ou região.
 
-📁 Estrutura Esperada dos Arquivos
-Coluna	Descrição
-CTT ou CONTRATO	Identificador único do contrato
-NOME	Nome do cliente
-BANCO	Instituição financeira
-CONSULTOR	Nome do consultor responsável
-UF	Unidade Federativa (estado)
-SALDO DEVEDOR	Valor restante a pagar
-DESCONTO	Valor do desconto
-%	Percentual de desconto
-QUITADO	Gerado pelo sistema (1 ou 0)
+
