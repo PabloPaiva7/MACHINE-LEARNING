@@ -23,8 +23,8 @@ def limpar_valor(valor):
 # Carregar dados
 @st.cache_data
 def carregar_dados():
-    df_aprovados = pd.read_csv("C:\\Users\\pablo paiva\\Downloads\\DEMANDAS DE JUNHO_2025 - APROVADOS.csv")
-    df_quitados = pd.read_csv("C:\\Users\\pablo paiva\\Downloads\\DEMANDAS DE JUNHO_2025 - QUITADOS (3).csv")
+    df_aprovados = pd.read_csv("aprovadosjunho.csv")
+    df_quitados = pd.read_csv("quitadosjunho.csv")
     return df_aprovados, df_quitados
 
 df_aprovados, df_quitados = carregar_dados()
